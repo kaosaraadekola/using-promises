@@ -1,6 +1,6 @@
 const axios = require("axios").default;
 
-//or https://jsonplaceholder.typicode.com/users/1
+
 const url = "https://api.openweathermap.org/data/2.5/weather?lat=37.7749&lon=-122.4194&appid=df88028e541c3e4ea933f92bfda3084f";
 
 const resultingPromise = axios.get(url);
